@@ -1,0 +1,127 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E0E0E0;
+}
+
+/* Header styles */
+.header {
+    background-color: #000;
+    width: 100%;
+    height: 80px;
+}
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #FAFAFA;
+    width: 220px;
+    height: calc(100vh - 80px);
+    border-right: 3px solid #252323;
+    position: fixed;
+    top: 80px;
+    left: 0;
+}
+
+/* Content styles */
+.content {
+    margin-left: 220px;
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Rectangle card styles */
+.rectangle {
+    width: 85%;
+    height: 150px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    margin-top: 40px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* Image section */
+.rectangle-image {
+    width: 150px;
+    height: 100%;
+    background-image: url('smiles.png');
+    background-size: cover;
+    background-position: center;
+    border-right: 2px solid #000;
+
+}
+
+/* Content section in rectangle */
+.rectangle-content {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* User info section */
+.rectangle-user-info {
+    width: 150px;
+    height: 100%;
+    background-color: #f0f0f0;
+    border-left: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* User info section */
+.rectangle-user-info {
+    width: 150px;
+    height: 100%;
+    background-color: #f0f0f0;
+    border-left: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Profile picture */
+.profile-picture {
+    width: 80px;
+    height: 80px;
+    background-image: url('rafael.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+/* User name */
+.user-name {
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+/* Text styles */
+.bold-text {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    color: #333;
+}
+
+.info-text {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}

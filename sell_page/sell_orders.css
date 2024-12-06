@@ -51,7 +51,7 @@ body {
 .rectangle-image {
     width: 150px;
     height: 100%;
-    background-image: url('smiles.png');
+    background-image: url('sell_page/smiles.png');
     background-size: cover;
     background-position: center;
     border-right: 2px solid #000;
@@ -95,7 +95,7 @@ body {
 .profile-picture {
     width: 80px;
     height: 80px;
-    background-image: url('rafael.png');
+    background-image: url('sell_page/rafael.png');
     background-size: cover;
     background-position: center;
     border-radius: 50%;

@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6176cc2a-2198-4f37-aa4e-316ae73fe774" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/landing_page/landing_page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/landing_page/landing_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_page/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login_page/login_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rafael.png" beforeDir="false" afterPath="$PROJECT_DIR$/sell_page/rafael.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sell_orders.css" beforeDir="false" afterPath="$PROJECT_DIR$/sell_page/sell_orders.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sell_orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/sell_page/sell_orders.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smiles.png" beforeDir="false" afterPath="$PROJECT_DIR$/sell_page/smiles.png" afterDir="false" />
-    </list>
+    <list default="true" id="6176cc2a-2198-4f37-aa4e-316ae73fe774" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,27 +35,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.consulta.html.executor": "Debug",
-    "JavaScript Debug.landing_page.html.executor": "Debug",
-    "JavaScript Debug.login_page.html.executor": "Debug",
-    "JavaScript Debug.sell_orders.html.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.consulta.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.landing_page.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.login_page.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.sell_orders.html.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\flypo\OneDrive\Área de Trabalho\miles_marketplace\sell_page" />
@@ -187,7 +178,8 @@
       <option name="presentableId" value="Default" />
       <updated>1733407938653</updated>
       <workItem from="1733407940064" duration="14530000" />
-      <workItem from="1733494511787" duration="16032000" />
+      <workItem from="1733494511787" duration="16670000" />
+      <workItem from="1733751515021" duration="215000" />
     </task>
     <servers />
   </component>

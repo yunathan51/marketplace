@@ -2,57 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MileSwap - C2C Marketplace for Miles</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="landing_page.css">
 </head>
 <body>
 <!-- Header -->
-<div class="header">
+<header class="header">
     <div class="logo">Jonas Market</div>
-</div>
+</header>
 
 <!-- Hero Section -->
 <section class="hero">
-    <h1>Bem vindo ao Jonas Market!</h1>
+    <h1>Bem-vindo ao Jonas Market!</h1>
     <p class="subtitle">O melhor mercado C2C para emissões em milhas</p>
-    <a href="#" class="cta-button">Vamos lá!</a>
+    <a href="#" class="cta-button">Comece a negociar agora!</a>
 </section>
 
 <!-- Features Section -->
-<section class="features">
-    <h2>Por que escolher o Jonas Market?</h2>
-    <div class="feature-grid">
-        <div class="feature-card">
-            <h3>Praticidade</h3>
-            <p>Compre ou forneça milhas facilmente, conectando-se diretamente com outros usuários.</p>
+<section id="features" class="features">
+    <div class="container">
+        <h2 class="section-title">Por que escolher o Jonas Market?</h2>
+        <div class="features-grid">
+            <div class="feature">
+                <h3 class="feature-title">Praticidade</h3>
+                <p>Compre ou forneça milhas facilmente, conectando-se diretamente com outros usuários.</p>
+            </div>
+            <div class="feature">
+                <h3 class="feature-title">Segurança</h3>
+                <p>Promovemos segurança por meio de rigorosas etapas de verificação para ter acesso ao mercado.</p>
+            </div>
+            <div class="feature">
+                <h3 class="feature-title">Competitividade</h3>
+                <p>Encontre as melhores ofertas através do nosso mercado, de usuário para usuário.</p>
+            </div>
+            <div class="feature">
+                <h3 class="feature-title">Alta variedade</h3>
+                <p>Encontre ofertas de diversos programas de fidelidade em um único lugar.</p>
+            </div>
         </div>
-        <div class="feature-card">
-            <h3>Segurança</h3>
-            <p>Promovemos segurança por meio de rigorosas etapas de verificação para ter acesso ao mercado.</p>
-        </div>
-        <div class="feature-card">
-            <h3>Competividade</h3>
-            <p>Encontre as melhores ofertas através do nosso mercado, de usuario para usuario.</p>
-        </div>
-        <div class="feature-card">
-            <h3>Alta variedade</h3>
-            <p>Encontre ofertas de diversos programas de fidelidade em único lugar.</p>
+    </div>
+</section>
+
+<!-- How It Works Section -->
+<section class="how-it-works">
+    <div class="container">
+        <h2>Como funciona?</h2>
+        <div class="steps">
+            <!-- Step 1 -->
+            <div class="step">
+                <div class="step-number">1</div>
+                <svg class="step-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
+                </svg>
+                <p>Cadastre-se e acesse o mercado de milhas!</p>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="step">
+                <div class="step-number">2</div>
+                <svg class="step-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                </svg>
+                <p>Anuncie suas milhas ou busque ofertas disponíveis</p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="step">
+                <div class="step-number">3</div>
+                <svg class="step-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+                <p>Negocie com segurança e feche o melhor negócio</p>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="step">
+                <div class="step-number">4</div>
+                <svg class="step-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                </svg>
+                <p>Aproveite sua compra ou receba pelo serviço :)</p>
+            </div>
         </div>
     </div>
 </section>
 
 <!-- Call to Action Section -->
-<section class="cta">
-    <h2>Pronto para participar de nosso mercado?</h2>
-    <p>Assine o mercado hoje e conecte-se a centanas de usuarios!</p>
-    <a href="#" class="cta-button">Cadastrar-se</a>
+<section id="cta" class="cta">
+    <div class="container">
+        <h2 class="cta-title">Pronto para participar de nosso mercado?</h2>
+        <p>Assine o mercado hoje e conecte-se a centenas de usuários!</p>
+        <a href="#" class="cta-button">Cadastrar-se</a>
+    </div>
 </section>
 
 <!-- Footer -->
 <footer>
     <p>&copy; 2024 Jonas Market. Todos os direitos reservados.</p>
 </footer>
-
 </body>
 </html>

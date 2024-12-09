@@ -1,9 +1,27 @@
+/* Global Styles */
 body {
-    font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #FAF9F6;
+    font-family: Arial, sans-serif;
     color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    color: #000;
+    margin-bottom: 3rem;
 }
 
 /* Header styles */
@@ -16,7 +34,7 @@ body {
 }
 
 .logo {
-    color: #fff;
+    color: #ffffff;
     font-size: 35px;
     font-weight: 700;
     padding-left: 10px;
@@ -26,27 +44,21 @@ body {
 .hero {
     text-align: center;
     padding: 80px 20px;
-    background-color: #FAFAFA;
-    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
+    background-color: #426FF1;
     position: relative;
     z-index: 1;
-}
-
-h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-    color: #000;
 }
 
 .subtitle {
     font-size: 34px;
     margin-bottom: 40px;
+    color: #FFFFFF;
 }
 
 .cta-button {
     display: inline-block;
-    background-color: #6175DE;
-    color: #fff;
+    background-color: #FFFFFF;
+    color: #18181B;
     padding: 15px 30px;
     font-size: 18px;
     font-weight: 700;
@@ -56,61 +68,161 @@ h1 {
 }
 
 .cta-button:hover {
-    background-color: #2D3E94;
+    background-color: #A7C7E7;
 }
 
 /* Features Section */
 .features {
-    padding: 50px 20px;
-    background-color: #E0E0E0;
-
-}
-
-h2 {
+    background-color: #f8f8f8;
+    padding: 40px 15px;
     text-align: center;
-    font-size: 36px;
-    margin-bottom: 40px;
-    color: #000;
 }
 
-.feature-grid {
+.features h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
+    gap: 20px;
 }
 
-.feature-card {
-    background-color: #FAFAFA;
-    border: 2px solid #000;
-    border-radius: 4px;
-    padding: 30px;
+.feature {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* How It Works Section */
+.how-it-works {
+    background-color: #f0f0f0;
+    padding: 40px 15px;
     text-align: center;
-    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 }
 
-.feature-card h3 {
-    font-size: 24px;
-    margin-bottom: 15px;
-    color: #000;
+.how-it-works h2 {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.step {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.step-number {
+    background-color: #3b82f6;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.step-icon {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.checkmark {
+    margin-top: 10px;
+}
+
+.step p {
+    color: #4a5568;
+    font-size: 1.125rem;
+    margin: 0;
+}
+
+.arrow {
+    display: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 1rem;
 }
 
 /* Call to Action Section */
 .cta {
-    background-color: #E0E0E0;
+    background: linear-gradient(to right, #3b82f6, #6366f1);
+    color: #fff;
     text-align: center;
-    padding: 80px 20px;
-    font-size: 34px;
+    padding: 40px 15px;
+}
+
+.cta-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
 }
 
 /* Footer */
 footer {
-    background-color: #000;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px;
     font-size: 14px;
 }
 
+/* Media Queries */
+@media (min-width: 768px) {
+    .steps {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
+@media (min-width: 1024px) {
+    .steps {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .arrow {
+        display: block;
+    }
+}

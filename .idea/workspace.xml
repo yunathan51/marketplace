@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="6176cc2a-2198-4f37-aa4e-316ae73fe774" name="Changes" comment="" />
+=======
+    <list default="true" id="6176cc2a-2198-4f37-aa4e-316ae73fe774" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing_page/consulta.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/consulta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing_page/landing_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/landing_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing_page/landing_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/landing_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing_page/product_announcement.css" beforeDir="false" afterPath="$PROJECT_DIR$/landing_page/product_announcement.css" afterDir="false" />
+    </list>
+>>>>>>> 74ffa816f690496644313f520b8951d629d9e412
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,14 +23,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yunathan51&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yunathan51/marketplace.git&quot;,
+    &quot;accountId&quot;: &quot;d83c80bc-bf39-4be3-8b36-1b54b60ffe23&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/sell_orders.css" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -31,6 +53,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2pnhpFU2b4lDkDa5sJN56xYi8qh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,7 +63,14 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+<<<<<<< HEAD
     &quot;JavaScript Debug.consulta.html.executor&quot;: &quot;Debug&quot;,
+=======
+    &quot;JavaScript Debug.consulta.html (1).executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.consulta.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.indeques.html.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.landing_page.html (1).executor&quot;: &quot;Debug&quot;,
+>>>>>>> 74ffa816f690496644313f520b8951d629d9e412
     &quot;JavaScript Debug.landing_page.html.executor&quot;: &quot;Debug&quot;,
     &quot;JavaScript Debug.login_page.html.executor&quot;: &quot;Debug&quot;,
     &quot;JavaScript Debug.sell_orders.html.executor&quot;: &quot;Debug&quot;,
@@ -62,17 +94,20 @@
       <recent name="C:\Users\flypo\OneDrive\Área de Trabalho\miles_marketplace" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.consulta.html">
+  <component name="RunManager" selected="JavaScript Debug.landing_page.html (1)">
+    <configuration name="consulta.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/marketplace/landing_page/consulta.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="consulta.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/miles_marketplace/landing_page/consulta.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="indeques.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/marketplace/landing_page/indeques.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="landing_page.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/marketplace/landing_page/landing_page.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="landing_page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/miles_marketplace/landing_page/landing_page.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="login_page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/miles_marketplace/login_page/login_page.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="sell_orders.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/miles_marketplace/sell_page/sell_orders.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -154,20 +189,30 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.consulta.html (1)" />
+      <item itemvalue="JavaScript Debug.indeques.html" />
+      <item itemvalue="JavaScript Debug.landing_page.html (1)" />
       <item itemvalue="JavaScript Debug.consulta.html" />
       <item itemvalue="JavaScript Debug.landing_page.html" />
-      <item itemvalue="JavaScript Debug.login_page.html" />
-      <item itemvalue="JavaScript Debug.sell_orders.html" />
       <item itemvalue="Tomcat Server.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.landing_page.html (1)" />
+        <item itemvalue="JavaScript Debug.consulta.html (1)" />
+        <item itemvalue="JavaScript Debug.indeques.html" />
         <item itemvalue="JavaScript Debug.consulta.html" />
         <item itemvalue="JavaScript Debug.landing_page.html" />
-        <item itemvalue="JavaScript Debug.login_page.html" />
-        <item itemvalue="JavaScript Debug.sell_orders.html" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -178,8 +223,14 @@
       <option name="presentableId" value="Default" />
       <updated>1733407938653</updated>
       <workItem from="1733407940064" duration="14530000" />
+<<<<<<< HEAD
       <workItem from="1733494511787" duration="16670000" />
       <workItem from="1733751515021" duration="215000" />
+=======
+      <workItem from="1733494511787" duration="16032000" />
+      <workItem from="1733618334965" duration="4509000" />
+      <workItem from="1733693474824" duration="9437000" />
+>>>>>>> 74ffa816f690496644313f520b8951d629d9e412
     </task>
     <servers />
   </component>
